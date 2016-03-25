@@ -1,0 +1,1 @@
+# VIP webpack boilerplate
