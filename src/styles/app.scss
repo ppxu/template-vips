@@ -1,0 +1,37 @@
+@import "reset";
+@import "base";
+
+.container {
+  height: 200px;
+  margin: 50% auto;
+  text-align: center;
+  font-size: 24px;
+  color: $baseColor;
+  background-color: $baseBgColor;
+  h1 {
+    font-size: 48px;
+  }
+}
+.hidden {
+  display: none;
+}
+.font-red {
+  color: $fontRed;
+}
+.font-yellow {
+  color: $fontYellow;
+}
+.font-blue {
+  color: $fontBlue;
+}
+.spin {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.75);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+}
