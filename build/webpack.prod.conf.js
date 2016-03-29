@@ -3,7 +3,7 @@ var config = require('./webpack.base.conf');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // build vue to a single file
-config.entry.vendors = ['vue', 'jquery'];
+config.entry.vendors = ['vue'];
 
 // naming output files with hashes for better caching.
 // dist/index.html will be auto-generated with correct URLs.

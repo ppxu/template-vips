@@ -1,6 +1,5 @@
-// 检测ua: ios | android
 let initSpinner = (target) => {
-  var opts = {
+  let opts = {
     lines: 12,
     length: 6,
     width: 3,
@@ -22,8 +21,7 @@ let initSpinner = (target) => {
     hwaccel: false,
     position: 'absolute'
   };
-  /* eslint-disable no-undef */
-  new Spinner(opts).spin(target);
+  window.Spinner && new window.Spinner(opts).spin(target);
 };
 
 module.exports = {
