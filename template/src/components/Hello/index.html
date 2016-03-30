@@ -1,6 +1,7 @@
 <p class="hello">
     <span v-for="item in dataHello">
       {{ item.name }}
-      <!-- {{{ item | addClass }}} -->
+      <!-- cannot use filter symbol here because of the handlebars bug in khaos in vip-cli -->
+      <!-- {{{ item <filter> addClass }}} -->
     </span>
 </p>
