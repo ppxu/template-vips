@@ -1,7 +1,6 @@
 @import "reset";
 @import "base";
 
-
 // common
 .hidden {
   display: none;
@@ -15,6 +14,7 @@
 .font-blue {
   color: $fontBlue;
 }
+
 // components
 .container {
   width: 100%;
@@ -29,6 +29,7 @@
     font-size: 60px;
   }
 }
+
 // utils
 .spin {
   width: 80px;
