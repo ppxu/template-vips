@@ -9,7 +9,7 @@ module.exports = {
     filename: '[name].min.js'
   },
   resolve: {
-    extensions: ['', '.js', '.html', '.scss'],
+    extensions: ['', '.js', '.html', '.css', '.scss'],
     alias: {
       'src': path.resolve(__dirname, '../src')
     }
@@ -40,7 +40,7 @@ module.exports = {
         loader: 'json'
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|woff2?|eot|ttf)(\?.*)?$/,
         loader: 'url',
         query: {
           limit: 10000,
